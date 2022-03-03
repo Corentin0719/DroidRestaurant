@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+    app:barrierMargin="10dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -38,12 +40,16 @@
 
 
         android:layout_marginRight="160dp"
+        android:width="120dp"
+        android:background="#FFEB3B"
         android:text="Entrée"
+
+
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white"
+        app:barrierMargin="10dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
-
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/plat"
@@ -52,9 +58,14 @@
         android:layout_marginTop="516dp"
 
         android:layout_marginRight="156dp"
+        android:width="120dp"
         android:text="Plat"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white"
+        app:iconTint="@color/white"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="@color/white" />
 
     <Button
         android:id="@+id/dessert"
@@ -63,7 +74,11 @@
         android:layout_marginTop="384dp"
 
         android:layout_marginRight="156dp"
+        android:width="120dp"
+        android:background="#CDDC39"
         android:text="Dessert"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
